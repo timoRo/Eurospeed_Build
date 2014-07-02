@@ -11,7 +11,7 @@ PR = "r9"
 
 inherit packagegroup
 
-DEPENDS = "enigma2-pliplugins mkdigital-feeds"
+DEPENDS = "enigma2-pliplugins eurospeed-feeds"
 
 RRECOMMENDS_${PN} = "\
     eurospeed-version-info \
