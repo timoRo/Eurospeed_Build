@@ -5,11 +5,10 @@ BRAND_OEM = "km"
 
 MACHINE_NAME = "\
 ${@base_contains('MACHINEBUILD', 'lx1-plus', 'xpeed' , '', d)}\
-
+"
 
 MACHINE_BRAND = "\
 ${@base_contains('MACHINEBUILD', 'lx1-plus', 'GoldenInterstar' , '', d)}\
-
 "
 
 IMAGEDIR ?= "\
@@ -18,12 +17,10 @@ ${@base_contains('MACHINEBUILD', 'lx1-plus', 'lx1-plus' , '', d)}\
 
 MTD_KERNEL = "\
 ${@base_contains('MACHINEBUILD', 'lx1-plus', 'mtd1' , '', d)}\
-
 "
 
 MTD_ROOTFS = "\
 ${@base_contains('MACHINEBUILD', 'lx1-plus', 'mtd2' , '', d)}\
-
 "
 
 KERNEL_FILE = "kernel.bin"
