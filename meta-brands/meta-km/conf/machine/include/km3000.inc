@@ -13,7 +13,7 @@ ${@base_contains('MACHINEBUILD', 'lx1-plus', 'GoldenInterstar' , '', d)}\
 
 IMAGEDIR ?= "\
 ${@base_contains('MACHINEBUILD', 'lx1-plus', 'lx1-plus' , '', d)}\
-
+"
 
 MTD_KERNEL = "\
 ${@base_contains('MACHINEBUILD', 'lx1-plus', 'mtd1' , '', d)}\
