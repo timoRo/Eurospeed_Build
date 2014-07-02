@@ -14,7 +14,7 @@ PKGV = "1.0+git${GITPKGV}"
 VER ="1.0"
 PR = "r0"
 
-SRC_URI="git://github.com:timoRo/Eurospeed_Skin.git"
+SRC_URI="git://github.com/timoRo/Eurospeed_Skin.git"
 
 S = "${WORKDIR}/git"
 
