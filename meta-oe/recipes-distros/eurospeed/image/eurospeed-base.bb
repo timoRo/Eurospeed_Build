@@ -14,6 +14,7 @@ RDEPENDS_${PN} = "\
     oe-alliance-base \
     eurospeed-enigma2 \
     eurospeed-bootlogo \
+    ntfs-3g \
     hddtemp \
     packagegroup-base-smbfs-client \
     packagegroup-base-smbfs \
