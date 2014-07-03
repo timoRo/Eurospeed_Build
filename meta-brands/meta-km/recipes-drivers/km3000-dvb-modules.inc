@@ -7,7 +7,7 @@ PV = "${KV}+${SRCDATE}"
 PR = "r11"
 
 
-DOWNLOADURL = "https://github.com/timoRo/driver"
+DOWNLOADURL = "http://xpeedlx1.esy.es/download"
 
 
 SRC_URI = "${DOWNLOADURL}/${MACHINE}-drivers-${KV}-${SRCDATE}.zip"
