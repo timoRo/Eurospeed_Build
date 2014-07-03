@@ -4,13 +4,9 @@ PRIORITY = "required"
 LICENSE = "CLOSED"
 
 PV = "${KV}+${SRCDATE}"
-PR = "r11"
+PR = "r1"
 
-
-DOWNLOADURL = "http://xpeedlx1.esy.es/download"
-
-
-SRC_URI = "${DOWNLOADURL}/${MACHINE}-drivers-${KV}-${SRCDATE}.zip"
+SRC_URI = "http://xpeedlx1.esy.es/download/${MACHINE}-drivers-${KV}-${SRCDATE}.zip"
 
 S = "${WORKDIR}"
 
@@ -24,7 +20,7 @@ do_compile() {
 do_install() {
     install -d ${D}/lib/modules/${KV}/extra
     install -d ${D}/${sysconfdir}/modules-load.d
-    for i dvb; do
+    for i in dvb; do
         install -m 0755 ${WORKDIR}/$i.ko ${D}/lib/modules/${KV}/extra
         echo $i >> ${D}/${sysconfdir}/modules-load.d/_${MACHINE}.conf
     done
