@@ -22,7 +22,7 @@ PKG_kernel-image = "kernel-image"
 RPROVIDES_kernel-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "file://kmt3000-linux-${PV}-base-20140517.tgz \
+SRC_URI += "xpeedlx1.esy.es/download/kmt3000-linux-${PV}-base-20140517.tgz \
 	file://defconfig \
 	file://add-dmx-source-timecode.patch \
 	file://af9015-output-full-range-SNR.patch \
