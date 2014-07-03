@@ -7,8 +7,8 @@ KERNEL_RELEASE = "3.14.2"
 
 inherit machine_kernel_pr
 
-SRC_URI[md5sum] = "12d5ab837da35c8f1b2dbd082d752f68"
-SRC_URI[sha256sum] = "27c9c771c5f942bda544fc3f12b08bd9c17e33ed346a9fe4e4866c6dbbfff1d3"
+SRC_URI[md5sum] = "aa66a0af959073f1e2cbcb5175c78a68"
+SRC_URI[sha256sum] = "376c74e148575bf94b913b44def6888f3ddfdb85a89f9728e006f53c352d709a"
 
 LIC_FILES_CHKSUM = "file://${WORKDIR}/linux-${PV}/COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
